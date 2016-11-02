@@ -1,0 +1,26 @@
+<ion-view title="Aniversariantes" id="page7" class="" ng-init="metodoInicial('aniversario^daianeEventosCtrl')">
+    <ion-nav-bar>
+        <ion-nav-back-button style="color: #ffffff" class="button-icon icon-left ion-ios-arrow-left">
+        </ion-nav-back-button>
+    </ion-nav-bar>
+<ion-content>
+    <div class="row header">
+        <h2 class=" "> </h2>
+    </div>
+    
+    <div ng-repeat="aniversariantes in fworkEscopo.tabAniversario">
+        <div class="item item-divider">
+            <h2 class=" ">{{aniversariantes.tituloListagem}}</h2>
+        </div>
+        <div class="row header">
+            <div class="col col-20"><strong>Dia</strong></div>
+            <div class="col" style="text-align:left;margin-left: 5px;"><strong>Nome</strong></div>
+        </div>
+        <div class="row" ng-repeat="item in aniversariantes.itens">
+          <div class="col col-20">{{item.dia}}</div>
+          <div class="col" style="text-align:left;margin-left: 5px;">{{item.nome}}</div>
+        </div>
+    </div>
+    
+</ion-content>
+</ion-view>

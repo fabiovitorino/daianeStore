@@ -1,0 +1,24 @@
+<ion-view title="Vagas" id="page6" class="" ng-init="metodoInicial('vagas^daianeEventosCtrl')">
+    <ion-nav-bar>
+        <ion-nav-back-button style="color: #ffffff" class="button-icon icon-left ion-ios-arrow-left">
+        </ion-nav-back-button>
+    </ion-nav-bar>
+<ion-content>
+    <div class="row header">
+        <h2 class=" "> </h2>
+    </div>
+    
+    <div class="row header">
+        <div class="col" style="text-align:left;margin-left: 5px;"><strong>Setor</strong></div>
+        <div class="col" style="text-align:left;margin-left: 5px;"><strong>Profissão</strong></div>
+        <div class="col"><strong>Qtdade</strong></div>
+    </div>
+    
+    <div class="row" ng-repeat="item in fworkEscopo.tabVagas">
+          <div class="col" style="text-align:left;margin-left: 5px;">{{item.setor}}</div>
+          <div class="col" style="text-align:left;margin-left: 5px;">{{item.profissao}}</div>
+          <div class="col">{{item.quantidade}}</div>
+    </div>
+    
+    </ion-content>
+</ion-view>

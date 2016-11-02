@@ -1,0 +1,445 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "jsapp/template-blank-cordova-project-lite/sample.zip",
+      "projectGuid": "f86262fd-b0d8-45a1-b3e5-5b72f36a5073",
+      "lastModifiedDate": 1478027554344,
+      "creationDate": 1477385285052
+    },
+    "XDK-app-designer": "false",
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {},
+    "libraries": [],
+    "serviceMethods": [],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-statusbar",
+        "name": "StatusBar",
+        "version": "2.1.3",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-statusbar",
+        "gitref": "",
+        "paramvals": {},
+        "selectedState": "Included",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova StatusBar Plugin",
+        "data": {},
+        "dependedBy": [],
+        "checksum": "c0146fbc"
+      },
+      {
+        "id": "cordova-plugin-device",
+        "version": "1.1.2",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-device",
+        "permissions": {},
+        "topLevel": true,
+        "gitref": "",
+        "name": "Device",
+        "description": "Cordova Device Plugin",
+        "checksum": "2373ccea"
+      },
+      {
+        "id": "cordova-plugin-splashscreen",
+        "version": "3.2.2",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-splashscreen",
+        "permissions": {},
+        "topLevel": true,
+        "gitref": "",
+        "name": "Splashscreen",
+        "description": "Cordova Splashscreen Plugin",
+        "checksum": "47137083"
+      },
+      {
+        "id": "phonegap-plugin-push",
+        "name": "PushPlugin",
+        "version": "1.4.3",
+        "originType": "cordova.io",
+        "origin": "phonegap-plugin-push",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/phonegap-plugin-push",
+        "selectedState": "Included",
+        "checksum": "b8b2263e",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Bob Easterday",
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.VIBRATE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "$PACKAGE_NAME.permission.C2D_MESSAGE"
+          ]
+        },
+        "description": "\n\t\tThis plugin allows your application to receive push notifications on Android, iOS, WP8 and Windows8 devices.\n    Android uses Google Cloud Messaging.\n    iOS uses Apple APNS Notifications.\n    WP8 uses Microsoft MPNS Notifications.\n    Windows8 uses Microsoft WNS Notifications.\n\t",
+        "data": {},
+        "dependedBy": []
+      }
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "certificateId_": "akzwoGyWGUeSrcrcIQR3EQ2",
+        "appName_": "um UP a mais!",
+        "appID_": "daianeEventos.xdk.intel.cordova.template.lite",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/Daiane_icone_96_96.png",
+            "width": 96,
+            "height": 96
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/Daiane_icone_72_72.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/Daiane_icone_48_48.png",
+            "width": 48,
+            "height": 48
+          },
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/Daiane_icone_36_36.png",
+            "width": 36,
+            "height": 36
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "package-assets/android_960_720.png",
+            "density": "xhdpi",
+            "height": 720,
+            "width": 960,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "package-assets/android_640_480.png",
+            "density": "hdpi",
+            "height": 480,
+            "width": 640,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "package-assets/android_470_320.png",
+            "density": "mdpi",
+            "height": 320,
+            "width": 470,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "package-assets/android_426_320.png",
+            "density": "ldpi",
+            "height": 320,
+            "width": 426,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "package-assets/android_720_960.png",
+            "density": "xhdpi",
+            "height": 960,
+            "width": 720,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/android_320_426.png",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/android_320_470.png",
+            "density": "mdpi",
+            "height": 470,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/android_480_640.png",
+            "density": "hdpi",
+            "height": 640,
+            "width": 480,
+            "orientation": "portrait"
+          }
+        ],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "19",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Criado para a interação entre funcionários da Daiane Store",
+        "appAuthor_": "Intel XDK",
+        "appVersionCode_": "4",
+        "signed_": true
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-configuration": "adhoc",
+          "deployment-target": "8.0"
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "daianeEventos",
+        "appID_": "xdk.intel.cordova.template.lite",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "6.2.0",
+        "appAuthor_": "Intel XDK",
+        "crosswalkVersion_": "19",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": ""
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "daianeEventos",
+        "appID_": "xdk.intel.cordova.template.lite",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "19",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.0.1",
+        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "Blank Intel XDK Cordova Project (Lite)",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "daianeEventos",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "Blank Intel XDK Cordova Project (Lite)",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "Blank Intel XDK Cordova Project (Lite)",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "Cordova 3.x",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "daianeEventos",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "6.2.0",
+        "appAuthor_": "Intel XDK"
+      }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "testDirectory": "test"
+  }
+}

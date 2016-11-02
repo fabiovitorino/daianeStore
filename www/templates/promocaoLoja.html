@@ -1,0 +1,13 @@
+<ion-view title="Imagens" id="page10" class=" " ng-init="metodoInicial('promocao^daianeEventosCtrl')">
+    <ion-nav-bar>
+        <ion-nav-back-button style="color: #ffffff" class="button-icon icon-left ion-ios-arrow-left">
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content>
+    <div class="card" ng-repeat="item in fworkEscopo.tabImagem">
+        <div class="item item-image">
+            <img src="{{item.url}}">
+        </div>
+    </div>
+    </ion-content>
+</ion-view>
